@@ -1,0 +1,40 @@
+.logo .tab {
+    display: inline-block;
+    justify-content: center;
+}
+.logo{
+    padding: 20px 40px;
+}
+
+.nav {
+    background-color: black;
+}
+li {
+    flex-direction: row;
+    list-style-type: none;
+    padding: 20px 40px;
+}
+.nav a {
+    size: 30px;
+    color: white;
+    text-decoration: none;
+    padding: 5px;
+    border: 2px solid gainsboro;
+}
+.nav a:hover{
+    background-color: white;
+    color: black;
+}
+
+footer {
+    background-color: gray;
+    position:relative;
+    width: 100%;
+    bottom: 0;
+    text-align: center;
+
+}
+
+footer a{
+    color: black;
+}
