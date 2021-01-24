@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Railway Reservation System</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="login.css">
 </head>
 <body>
     <header>
@@ -17,7 +17,6 @@
             <ul class="row">
                 <li><a href="index.html">Home</a></li>
                 <li><a href="login.html">Login</a></li>
-                <li><a href="inquiry.html">Inquiry</a></li>
                 <li><a href="about-us.html">About</a></li>
                 <li><a href="contact-us.html">Contact Us</a></li>
             </ul>
@@ -25,13 +24,62 @@
     </div>
     </header>
     <main>
-        <section class="Intro">
-            <div>
-                <h2>Will be making a login and signup form soon</h2>
-
+        <div class="wrapper">
+            <div class="title-text">
+              <div class="title login">
+                  Login Form
+              </div>
+              <div class="title signup">
+                Signup Form
+              </div>
             </div>
-
-        </section>
+            <div class="form-container">
+                <div class="slide-controls">
+                    <input type="radio" name="slide" id="login" checked>
+                    <input type="radio" name="slide" id="signup">
+                    <label for="login" class="slide login">Login</label>
+                    <label for="signup" class="slide signup">SignUp</label>
+                    <div class="slider-tab">      
+                </div>
+            </div>
+            <div class="form-inner">
+                <form action="#" class="login">
+                        <div class="field">
+                            <input type="text" placeholder="Email Address" required>
+                        </div>
+                        <div class="field">
+                            <input type="password" placeholder="Password" required>
+                        </div>
+                        <div class="pass-link">
+                            <a href="#">Forgot password?</a></div>
+                        <div class="field btn">
+                            <div class="btn-layer">
+                            </div>
+                            <input type="submit" value="Login">
+                        </div>
+                        <div class="signup-link">
+                        Not a member? <a href="">Sign-Up</a>
+                        </div>
+                </form>
+                <form action="#" class="signup">
+                    <div class="field">
+                        <input type="text" placeholder="Email Address" required>
+                    </div>
+                    <div class="field">
+                        <input type="password" placeholder="Password" required>
+                    </div>
+                    <div class="field">
+                        <input type="password" placeholder="Confirm password" required>
+                    </div>
+                    <div class="field btn">
+                        <div class="btn-layer">
+                        </div>
+                        <input type="submit" value="Signup">
+                    </div>
+                </form>
+            </div>
+        </div>
+        </div>
     </main>
     <footer>
         <div class="container">

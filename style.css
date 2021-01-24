@@ -1,3 +1,10 @@
+main {
+    position: relative;
+}
+ul.row {
+    display: flex;
+    justify-content:flex-end;
+}
 .logo .tab {
     display: inline-block;
     justify-content: center;
@@ -12,6 +19,7 @@
 li {
     flex-direction: row;
     list-style-type: none;
+    justify-content: flex-end;
     padding: 20px 40px;
 }
 .nav a {
@@ -26,11 +34,64 @@ li {
     color: black;
 }
 
+.caption {
+    width: 100%;
+    position: absolute;
+    color:white;
+    text-align: center;
+    font-family:cursive;
+    font-style: italic;
+    font-weight: bold;
+    margin: 10px;
+}
+
+
+.intro {
+    background-image: url(images/track.jpg);
+    background-size: cover;
+    background-position: bottom;
+    display: flex;
+}
+.intro2 {
+    background-image: url(images/trainhome.jpg);
+    background-size: cover;
+    background-position: bottom;
+    display: flex;
+}
+.inquiry{
+    text-align: center;
+    overflow: hidden;
+    max-width: 600px;
+    background: #fff;
+    margin: 200px;
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 0px 15px 20px rgba(0,0,0,0.1);
+}
+
+.inquiry .title {
+    /* display: flex; */
+    font-size: 35px;
+    font-weight: 600;
+    padding: 10px;
+    text-align: center;
+    transition: all 0.6s cubic-bezier(0.68,-0.55,0.265,1.55);
+    background-color: lightblue;
+}
+
+
+
+.aboutintro {
+    text-align: center;
+    font-size: larger;
+    background-color: antiquewhite;
+    margin: 250px;
+}
+
 footer {
     background-color: gray;
-    position:relative;
+    position: relative;
     width: 100%;
-    bottom: 0;
     text-align: center;
 
 }

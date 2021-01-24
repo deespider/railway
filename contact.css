@@ -1,0 +1,94 @@
+main {
+    background: -webkit-linear-gradient(left, blue, lightblue);
+    display: flex;
+}
+.nav{
+    position: relative;
+    display: flex;
+    background-color: black;
+    width: 100%;
+}
+ul.row {
+    display: flex;
+    justify-content:flex-end;
+}
+li {
+    flex-direction: row;
+    list-style-type: none;
+    padding: 20px 40px;
+}
+.nav a {
+    size: 30px;
+    color: white;
+    text-decoration: none;
+    padding: 5px;
+    border: 2px solid gainsboro;
+}
+.nav a:hover{
+    background-color: white;
+    color: black;
+}
+.logo .tab {
+    display: inline-block;
+    justify-content: center;
+}
+.logo{
+    padding: 20px 40px;
+}
+footer {
+    background-color: gray;
+    position: relative;
+    width: 100%;
+    text-align: center;
+
+}
+
+footer a{
+    color: black;
+}
+input[type=text], [type=number], textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+  
+input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+input[type=submit]:hover {
+    background-color: darkgreen;
+  }
+.contbox {
+    position: relative;
+    display: flex;
+    justify-content:center;
+}
+
+.contactform {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 30px;
+    max-width: 500px;
+    position: relative;
+    justify-content: center;
+    left: 40%;
+    margin: 100px;
+  }
+
+
+/* Responsive */
+
+@media (max-width:500px) {
+    
+}

@@ -17,7 +17,6 @@
             <ul class="row">
                 <li><a href="index.html">Home</a></li>
                 <li><a href="login.html">Login</a></li>
-                <li><a href="inquiry.html">Inquiry</a></li>
                 <li><a href="about-us.html">About</a></li>
                 <li><a href="contact-us.html">Contact Us</a></li>
             </ul>
@@ -25,12 +24,45 @@
     </div>
     </header>
     <main>
-        <section class="Intro">
-            <div class="image"> 
-                <img src="images/track.jpg">
+        <section class="intro">
+            <div class="caption">
+                <h3>"If a train doesn't stop at your station, then it's not your train"</h3>
             </div>
-            <div>
-                
+            <div class="inquiry">
+                <div class="title">
+                    Find Trains
+                </div>
+                <form>
+                    <label for="from">From:</label> 
+                    <select id="from" name="from">
+                        <option value="kolkata">Kolkata</option>
+                        <option value="mumbai">Mumbai</option>
+                        <option value="chennai">Chennai</option>
+                        <option value="delhi">Delhi</option>
+                        <option value="pune">Pune</option>
+                        <option value="gaya">Gaya</option>
+                        <option value="bangalore">Bangalore</option>
+                        <option value="kota">Kota</option>
+                        <option value="goa">Goa</option>
+                        <option value="tripura">Tripura</option>
+                    </select>
+                    <label for="to">To:</label> 
+                    <select id="to" name="to">
+                        <option value="mumbai">Mumbai</option>
+                        <option value="kolkata">Kolkata</option>
+                        <option value="chennai">Chennai</option>
+                        <option value="delhi">Delhi</option>
+                        <option value="pune">Pune</option>
+                        <option value="gaya">Gaya</option>
+                        <option value="bangalore">Bangalore</option>
+                        <option value="kota">Kota</option>
+                        <option value="goa">Goa</option>
+                        <option value="tripura">Tripura</option>
+                    </select>
+                    <label for="day">Date:</label>
+                    <input type="date" id="day" name="day">
+                    <input type="submit">
+                </form>
 
             </div>
 
@@ -73,7 +105,7 @@
             </div>
         </div>
         <div class="footer-copyright">
-            <p>© 2021 Copyright Text</p>
+            <p>© 2021 MAKAUT Team-3</p>
         </div>
     </footer>
     
