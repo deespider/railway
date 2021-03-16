@@ -60,6 +60,18 @@ main {
     border-radius: 5px;
     box-shadow: 0px 15px 20px rgba(0,0,0,0.1);
 }
+.logt {
+    position: relative;
+    text-align: center;
+    box-shadow: 6px 10px #000;
+    display: flex;
+    width: 50%;
+    /* border-right: 1rem solid; */
+    font-size: 30px;
+    padding: 5px;
+    color: beige;
+    background: -webkit-linear-gradient(left, Red, black);
+}
 .wrapper .title-text{
     display: flex;
     width: 200%;
@@ -104,7 +116,7 @@ color: #000;
     left: 0;
     z-index: 0;
     border-radius: 5px;
-    background: -webkit-linear-gradient(left, green, greenyellow);
+    background: -webkit-linear-gradient(left,green, blue);
     transition: all 0.6s cubic-bezier(0.68,-0.55,0.265,1.55);
 }
 input[type="radio"]{
@@ -215,6 +227,10 @@ form .btn input[type="submit"]{
     font-size: 20px;
     font-weight: 500;
     cursor: pointer;
+}
+.admin  {
+    text-align: center;
+    color: red;
 }
 
 footer {
