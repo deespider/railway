@@ -8,5 +8,3 @@ let course ={
     price: 33,
     description: 'A good JS Course to learn'
 }
-
-console.log(course);
